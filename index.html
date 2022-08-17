@@ -18,7 +18,6 @@
           <li><a id="signup" href="javascript:checkCookie()">Signup</a></li>
           <li><a href="#">Page 2</a></li>
           <li><a href="#">Page 3</a></li>
-          <li><input id="search" value="" type="text" action="javascript:search()"></input></li>
         </ul>
       </div>
     </nav>
@@ -26,15 +25,5 @@
       <h3>Website</h3>
       <p>This is a website</p>
     </div>
-    <script>
-      function search(){
-        window.location.assign("search" + document.getElementById("search").value;
-      }            
-    </script>
-    <script>
-      if(getCookie("username")){
-        document.getElementById("signup").style.display ="none";
-      }
-</script>
   </body>
 </html>
