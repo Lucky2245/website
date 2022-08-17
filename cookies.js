@@ -30,3 +30,6 @@ function checkCookie(){
     }
   }
 }
+if(getCookie("username")){
+  document.getElementById("signup").style.display = "none";
+}
