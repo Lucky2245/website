@@ -31,3 +31,6 @@ function checkCookie(){
     }
   }
 }
+if(localStorage.getItem("signedin")){
+  document.getElementById("signup").style.display ="none";
+}
