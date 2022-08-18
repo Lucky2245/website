@@ -27,10 +27,6 @@ function checkCookie(){
     user = prompt("Create a username. You don't have to if you don't want to:");
     if(user != "" && user != null){
       setCookie("username", user, 30);
-      localStorage.setItem("signedin");
     }
   }
-}
-if(localStorage.getItem("signedin")){
-  document.getElementById("signup").style.display ="none";
 }
