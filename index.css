@@ -7,3 +7,7 @@
 .titleheader{
   text-align:center;
 }
+.reload{
+  border:solid red;
+  background-color:black;
+}
