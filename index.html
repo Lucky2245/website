@@ -32,7 +32,13 @@
     <noscript>This page won't work if Javascript is disabled!</noscript>
     <p class="buttonalign"><button class="reload" onclick="window.location.reload();"><p class="buttonp">Reload the website</p></button></p>
     <hr/>
-    
+    <script>
+      if(navigator.cookieEnabled){
+        console.log("Cookies are enabled");
+      }else{
+        if(document.getElementById("signup").onclick){Alert("you can not do this if cookies aren't enabled!");                                
+      }
+    </script>
     <p class="url" onclick="this.style.display ='none';">make sure the url is always <script>document.write(window.location.href);</script> ! Click me to get rid of this.</p>
   </body>
 </html>
