@@ -22,7 +22,7 @@ function getCookie(cname) {
 function checkCookie(){
   let user = getCookie("username");
   if(user != ""){
-    alert("welcome again " + user);
+    alert("welcome again " + user + " The signup button will still show");
   }else{
     user = prompt("Create a username. You don't have to if you don't want to:");
     if(user != "" && user != null){
