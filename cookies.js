@@ -24,7 +24,7 @@ function checkCookie(){
   if(user != ""){
     alert("welcome again " + user);
   }else{
-    user = prompt("Create a username:");
+    user = prompt("Create a username. You don't have to if you don't want to:");
     if(user != "" && user != null){
       setCookie("username", user, 30);
     }
