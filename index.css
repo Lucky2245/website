@@ -20,11 +20,6 @@
 .url{
   text-align:center;
   border:solid red;
-  background-color:black;
-  color:white;
-}
-.url span{
-  color:white;
 }
 .pright{
   text-align:left;
