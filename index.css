@@ -32,7 +32,10 @@
 }
 .top{
   background-color:black;
-  bottom:100%;
+  position:fixed;
+  width:50%;
+  bottom:10px;
+  border:solid black;
 }
 .top h1{
   color:white;
