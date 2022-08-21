@@ -13,3 +13,6 @@ if(window.location.href =="https://lucky2245.github.io/website/404.html"){
 if(window.location.href == "https://lucky2245.github.io/website/page3.html"){
   window.location.assign("page3");
 }
+if(window.location.href == "https://lucky2245.github.io/website/page4.html"){
+  window.location.assign("page4");
+}
