@@ -19,5 +19,10 @@
       <p class="titleheader">Looks like you made it to the last page</p>
       <p class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/">Go Back Home</a></p>
     </div>
+    <div class="signp" id="signp" style="display:none;">
+      <h1>You can signup anytime you want</h1>
+      <p><a href="checkCookie()">Signup</a>
+    </div>
+    <script>if(getCookie("username")){console.log("Cookie exists");}else{document.getElementById("signp").style.display ="block";}</script>
   </body>
 </html>
