@@ -78,11 +78,10 @@
 .javascript{
   color:green;
 }
-.navpt{
-  background-color:black;
-}
 .navpt{ 
   background-color:black;
+  width:100px;
+  height:1000px;
 }
 .navpt h3{
   text-align:center;
