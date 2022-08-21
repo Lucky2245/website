@@ -1,4 +1,3 @@
-
 //Change index.html index
 if(window.location.href == "https://lucky2245.github.io/website/index.html"){
   window.location.assign("index");
