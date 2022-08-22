@@ -104,3 +104,9 @@
 .linkwhite{
   color:white;
 }
+.navbutton{
+  position:absolute;
+  top:30px;
+  background-color:green;
+  border:solid green;
+}
