@@ -9,7 +9,6 @@
       <h1 id="ptho" class="titleheader">Awesome Website Page 4</h1>
       <button id="navbutton"onclick="show()"><i class="fa fa-bars"></i></button>
       <div class="navpt" id="nav">
-      <span onclick="document.getElementById('nav').style.display ='none';">X</span>
       <h3>Page 4</h3>
       <h3 class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/">Home</a></h3>
       <h3 class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/page2">Page 2</a></h3>
@@ -24,6 +23,10 @@
     <script>
       function show(){
         document.getElementById("nav").style.display ="block";
+        document.getElementById("navbutton").onclick = "hide()";
+      }
+      function hide(){
+        document.getElementById("nav").style.display ="none";
       }
     </script>
 </html>
