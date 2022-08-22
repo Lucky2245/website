@@ -19,10 +19,13 @@
       <p class="titleheader">Looks like you made it to the last page</p>
       <p class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/">Go Back Home</a></p>
     </div>
-    <button onclick="show()">Show Navigation Bar</button>
+    <button id="navbutton"onclick="show()">Show Navigation Bar</button>
     <script>
       function show(){
         document.getElementById("nav").style.display ="block";
+      }
+      if(document.getElementById("nav").style.display = "block"){
+        document.getElementById("navbutton").style.display = "none";
       }
     </script>
 </html>
