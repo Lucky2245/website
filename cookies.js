@@ -28,8 +28,5 @@ function checkCookie(){
     if(user != "" && user != null){
       setCookie("username", user, 30);
     }
-    if(document.getElementById("signuppage").value == ""){
-      alert("Enter a username");
-    }
   }
 }
