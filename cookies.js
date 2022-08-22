@@ -24,7 +24,7 @@ function checkCookie(){
   if(user != ""){
     alert("welcome again " + user + " . The signup button will still show");
   }else{
-    user = prompt("Create a username. You don't have to if you don't want to:");
+    user = document.getElementById("signuppage").value;                    
     if(user != "" && user != null){
       setCookie("username", user, 30);
     }
