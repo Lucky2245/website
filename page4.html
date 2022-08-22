@@ -15,11 +15,12 @@
         <h3 class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/page3">Page 3</a></h3>
     </div>
     <div class="top" id="top">
-      <span onclick="document.getElementById('top').style.display ='none';">X</span>
+      <span onclick="document.getElementById('top').style.display ='none';document.getElementById('showtop').style.display ='block';">X</span>
       <h1 class="titleheader">Welcome to page 4</h1>
       <p class="titleheader">Looks like you made it to the last page</p>
       <p class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/">Go Back Home</a></p>
     </div>
+    <button class="topbuttonopen" onclick="document.getElementById('top').style.display ='block';">Show</button>
     <script>
       function show(){
         document.getElementById("nav").style.display ="block";
