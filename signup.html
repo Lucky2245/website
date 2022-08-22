@@ -9,5 +9,10 @@
     <form name="signup" action="javascript:CheckCookie()">
     <input id="signuppage" value="" placeholder="Create a username"></input>
     </form>
+    <script>
+      if(document.getElementById("signuppage").value == ""){
+      alert("Enter a username");
+    }
+  </script>
   </body>
 </html>
