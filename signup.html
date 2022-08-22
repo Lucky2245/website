@@ -5,17 +5,8 @@
     <link rel="stylesheet" href="index.css"/>
     <body>
       <h1 class="titleheader">Signup Page</h1>
-      <form name="signup" action="javascript:checkValue()">
+      <form name="signup" action="javascript:CheckCookie()">
         <input id="signuppage" value="" placeholder="Create a username"></input>
       </form>
-      <script>
-        function checkValue(){
-          if(document.getElementById("signuppage").value == ""){
-          alert("Enter a username");
-          }else{
-            checkCookie()
-          }
-        }
-    </script>
     </body>
 </html
