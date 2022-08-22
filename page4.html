@@ -6,7 +6,6 @@
   </head>
   <body>
       <h1 id="ptho" class="titleheader">Awesome Website Page 4</h1>
-      <button id="navbutton"onclick="show()">Show Navigation Bar</button>
       <div class="navpt" id="nav">
       <span onclick="document.getElementById('nav').style.display ='none';">X</span>
       <h3>Page 4</h3>
@@ -14,6 +13,7 @@
       <h3 class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/page2">Page 2</a></h3>
       <h3 class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/page3">Page 3</a></h3>
     </div>
+    <button id="navbutton"onclick="show()">Show Navigation Bar</button>
     <div class="top" id="top">
       <span onclick="document.getElementById('top').style.display ='none';">X</span>
       <h1 class="titleheader">Welcome to page 4</h1>
@@ -23,9 +23,6 @@
     <script>
       function show(){
         document.getElementById("nav").style.display ="block";
-      }
-      if(document.getElementById("nav").style.display ="block"){
-        document.getElementById("navbutton").style.display ="none";
       }
     </script>
 </html>
