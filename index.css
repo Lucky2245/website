@@ -86,6 +86,7 @@
   border:solid orange;
   position:absolute;
   top:30px;
+  display:none;
 }
 .navpt h3{
   text-align:center;
