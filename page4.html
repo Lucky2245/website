@@ -6,6 +6,7 @@
   </head>
   <body>
       <h1 id="ptho" class="titleheader">Awesome Website Page 4</h1>
+      <button id="navbutton"onclick="show()">Show Navigation Bar</button>
       <div class="navpt" id="nav">
       <span onclick="document.getElementById('nav').style.display ='none';">X</span>
       <h3>Page 4</h3>
@@ -19,10 +20,12 @@
       <p class="titleheader">Looks like you made it to the last page</p>
       <p class="titleheader"><a class="linkwhite" href="https://lucky2245.github.io/website/">Go Back Home</a></p>
     </div>
-    <button id="navbutton"onclick="show()">Show Navigation Bar</button>
     <script>
       function show(){
         document.getElementById("nav").style.display ="block";
+      }
+      if(document.getElementById("nav").style.display ="block"){
+        document.getElementById("navbutton").style.display ="none";
       }
     </script>
 </html>
