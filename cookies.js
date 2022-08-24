@@ -25,7 +25,7 @@ function checkCookie() {
   if (user != "") {
     alert("Welcome again " + user);
   } else {
-    user = document.getElementById("signuppage").value;    
+    user = prompt("Create a username!");
     if (user != "" && user != null) {
       setCookie("username", user, 365);
     }
