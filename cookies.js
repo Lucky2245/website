@@ -25,7 +25,7 @@ function checkCookie() {
   if (user != "") {
     alert("Welcome again " + user);
   } else {
-    user = prompt("Create a username!");
+    user = prompt("Create a username! You DON'T have to if you don't want to!");
     if (user != "" && user != null) {
       setCookie("username", user, 365);
     }
