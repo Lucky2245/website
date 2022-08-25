@@ -28,6 +28,7 @@ function checkCookie() {
     user = prompt("Create a username! You DON'T have to if you don't want to!");
     if (user != "" && user != null) {
       setCookie("username", user, 365);
+      localStorage.setItem("usedname", user)
     }
   }
 }
