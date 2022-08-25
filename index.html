@@ -40,9 +40,9 @@
       }else{
         if(document.getElementById("signup").onclick){Alert("you can not do this if cookies aren't enabled!");                                
       }
-        if(localStorage.getItem("username")){
-          document.getElementById("signup").style.display ="none";
-        }
+      if(localStorage.getItem("username")){
+        document.getElementById("signup").style.display ="none";
+      }
     </script>
     <p id="url" class="url"><span onclick="document.getElementById('url').style.display='none';">X</span>. Make sure the url is always <script>document.write(window.location.href);</script> !</p>
   </body>
