@@ -14,7 +14,7 @@ if(window.location.href =="https://lucky2245.github.io/website/about.html"){
 if(window.location.href =="https://lucky2245.github.io/website/404.html"){
   window.location.assign("404");
 }  
-//change page4.html to page4
+//change page3.html to page3
 if(window.location.href == "https://lucky2245.github.io/website/page3.html"){
   window.location.assign("page3");
 }
